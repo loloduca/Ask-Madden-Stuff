@@ -23,21 +23,18 @@ input {
     font-size: 18px;
 }
 
-button {
+a {
+    border: 1px black;
     font-size: 18px;
     border-radius: 10px;
-    border: none;
-    width: 125px;
-    height: 50px;
-    background: red;
-    color: white;
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
 }
 
-button:hover {
+a:hover {
 	cursor: pointer;
-	color: yellow;
+	color: red;
 }
 
-a {
-  border: 1px black;
-}
