@@ -19,13 +19,15 @@ input {
     font-size: 18px;
 }
 
-input[type="submit"] {
-    width: 150px;
+button {
+    font-size: 18px;
+    width: 125px;
+    height: 50px;
     background: red;
     color: white;
 }
 
-input[type="submit"]:hover {
+button:hover {
 	cursor: pointer;
 	color: yellow;
 }

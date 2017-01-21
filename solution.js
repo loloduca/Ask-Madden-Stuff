@@ -1,8 +1,9 @@
-var x = document.getElementsByClassName("ask");
-
 function ask() {
+	var x = document.getElementsByClassName("ask");
 	x.style.visibility = "hidden";
-	var btn = document.createElement("askagain");
+	var y = document.getElementById("question").value;
+	alert(y);
+	// var btn = document.createElement("askagain");
 }
 
 function askAgain() {
