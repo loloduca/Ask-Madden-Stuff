@@ -25,6 +25,8 @@ input {
 
 button {
     font-size: 18px;
+    border-radius: 10px;
+    border: none;
     width: 125px;
     height: 50px;
     background: red;
@@ -34,4 +36,8 @@ button {
 button:hover {
 	cursor: pointer;
 	color: yellow;
+}
+
+a {
+  border: 1px black;
 }
