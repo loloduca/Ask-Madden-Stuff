@@ -11,6 +11,10 @@ p {
     font-size: 22px;
 }
 
+img {
+	width: 300px;
+}
+
 input {
     width: 600px;
     border: 0;
