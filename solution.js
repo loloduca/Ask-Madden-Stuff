@@ -15,7 +15,7 @@ $(".ask").click(function() {
 				"family", "mafia", "kill", "murder", "fight", "choke",
 				"attack", "gun", "knife"];
 		// for(int i = 0; i < def.length() i++) {
-		//
+
 		// }
 	}
 
@@ -23,7 +23,7 @@ $(".ask").click(function() {
 		var off = ["mother", "father", "wife", "husband", "child", "children",
 				"son", "daughter", "grandmother", "grandma", "grandfather",
 				"cousin", "niece", "nephew", "love", "crush", "boyfriend",
-				"girlfriend", "fiancee"];
+				"girlfriend", "fiancee", "car", "house"];
 	}
 
 
@@ -35,7 +35,10 @@ $(".ask").click(function() {
 		$(".fail").remove();
 		$(".play").append('<p>This is your play!</p>');
 
-		if($(".question").val().search('alpha') != -1) { //DEFENSE
+		if($(".question").val().search(
+			for(int i = 0; i < def.length(); i++) {
+				def[i];
+		}) != -1) { //DEFENSE
 			if(x > 0 && x < 25) {
 				$(".play").append('<img src = "34OddMarlinExchange.PNG"/>');
 			}
@@ -50,7 +53,10 @@ $(".ask").click(function() {
 			}
 		}
 
-		if($(".question").val().search('beta') != -1) { //OFFENSE
+		if($(".question").val().search(
+			for(int i = 0; i < off.length(); i++) {
+				off[i];
+		}) != -1) { //OFFENSE
 			if(x > 0 && x < 5) {
 				$(".play").append('<img src = "ILeft37Pwr.PNG"/>');
 			}
