@@ -5,27 +5,8 @@ $(document).ready(function(){
 var check1 = true;
 var check2 = true;
 
-
 $(".ask").click(function() {
 	var x = Math.floor((Math.random() * 100) + 1);
-	console.log(x);
-
-	function checkDef() {
-		var def = ["married", "marry", "marriage", "finance", "money", "cash",
-				"family", "mafia", "kill", "murder", "fight", "choke",
-				"attack", "gun", "knife"];
-		// for(int i = 0; i < def.length() i++) {
-
-		// }
-	}
-
-	function checkOff() {
-		var off = ["mother", "father", "wife", "husband", "child", "children",
-				"son", "daughter", "grandmother", "grandma", "grandfather",
-				"cousin", "niece", "nephew", "love", "crush", "boyfriend",
-				"girlfriend", "fiancee", "car", "house"];
-	}
-
 
 	if($(".question").val() == false && check1 == true) {
 		$(".fail").append('<p>You need to ask Madden.</p>');
@@ -35,28 +16,15 @@ $(".ask").click(function() {
 		$(".fail").remove();
 		$(".play").append('<p>This is your play!</p>');
 
-		if($(".question").val().search(
-			for(int i = 0; i < def.length(); i++) {
-				def[i];
-		}) != -1) { //DEFENSE
-			if(x > 0 && x < 25) {
-				$(".play").append('<img src = "34OddMarlinExchange.PNG"/>');
-			}
-			else if(x > 25 && x < 50) {
-				$(".play").append('<img src = "34QueensDeep.PNG"/>');
-			}
-			else if(x > 50 && x < 75) {
-				$(".play").append('<img src = "34SHT_Pinch.PNG"/>');
-			}
-			else if(x > 75 && x < 100) {
-				$(".play").append('<img src = "34UnderPirate.PNG"/>');
-			}
-		}
-
-		if($(".question").val().search(
-			for(int i = 0; i < off.length(); i++) {
-				off[i];
-		}) != -1) { //OFFENSE
+		//DEFENSE
+		if($(".question").val().search("married") || $(".question").val().search("marry")
+			 || $(".question").val().search("marriage") || $(".question").val().search("finance") ||
+			 $(".question").val().search("money") || $(".question").val().search("cash") || 
+			 $(".question").val().search("family") || $(".question").val().search("mafia") || 
+			 $(".question").val().search("kill") || $(".question").val().search("murder") || 
+			 $(".question").val().search("fight") || $(".question").val().search("choke") || 
+			 $(".question").val().search("attack") || $(".question").val().search("gun") || 
+			 $(".question").val().search("knife") != -1) {
 			if(x > 0 && x < 5) {
 				$(".play").append('<img src = "ILeft37Pwr.PNG"/>');
 			}
@@ -105,10 +73,33 @@ $(".ask").click(function() {
 			else if(x > 80 && x < 85) {
 				$(".play").append('<img src = "WingWedge144CTXXDive.PNG"/>');
 			}
-			else if(x > 85 && x < 100) {
-				$(".play").append('<img src = "HailMary.png"/>');
-			}
 		}
+
+		//OFFENSE
+		else if($(".question").val().search("mother") || $(".question").val().search("father") || 
+			$(".question").val().search("wife") || $(".question").val().search("husband") ||
+			$(".question").val().search("child") || $(".question").val().search("children") || 
+			$(".question").val().search("son") || $(".question").val().search("daughter") || 
+			$(".question").val().search("grandmother") || $(".question").val().search("grandma") ||
+			$(".question").val().search("grandfather") || $(".question").val().search("cousin") || 
+			$(".question").val().search("niece") || $(".question").val().search("nephew") || 
+			$(".question").val().search("love") || $(".question").val().search("crush") || 
+			$(".question").val().search("boyfriend") || $(".question").val().search("girlfriend") || 
+			$(".question").val().search("fiancee") || $(".question").val().search("car") || 
+			$(".question").val().search("house") != -1) {
+			if(x > 0 && x < 25) {
+				$(".play").append('<img src = "34OddMarlinExchange.PNG"/>');
+			}
+			else if(x > 25 && x < 50) {
+				$(".play").append('<img src = "34QueensDeep.PNG"/>');
+			}
+			else if(x > 50 && x < 75) {
+				$(".play").append('<img src = "34SHT_Pinch.PNG"/>');
+			}
+			else if(x > 75 && x < 100) {
+				$(".play").append('<img src = "34UnderPirate.PNG"/>');
+			}
+		} else $(".play").append('<img src = "HailMary.png"/>');
 
 		check2 = false;
 		$(".reset").show();
