@@ -1,8 +1,25 @@
-var check1 = true;
-var check2 = true;
 $(document).ready(function(){
 	$(".reset").hide();
-})
+});
+
+var check1 = true;
+var check2 = true;
+
+// function checkDef() {
+// 	var def = ["married", "marry", "marriage", "finance", "money", "cash",
+// 			"family", "mafia", "kill", "murder", "fight", "choke",
+// 			"attack", "gun", "knife"];
+// 	for(int i = 0; i < def.length() i++) {
+
+// 	}
+// }
+
+// function checkOff() {
+// 	var off = ["mother", "father", "wife", "husband", "child", "children",
+// 			"son", "daughter", "grandmother", "grandma", "grandfather",
+// 			"cousin", "niece", "nephew", "love", "crush", "boyfriend",
+// 			"girlfriend". "fiancee"];
+// }
 
 $(".ask").click(function() {
 	var x = Math.floor((Math.random() * 100) + 1);
@@ -31,7 +48,7 @@ $(".ask").click(function() {
 			}				
 		}
 
-		if($(".question").val().search('beta') != -1) {
+		if($(".question").val().search('beta') != -1) { //OFFENSE
 			if(x > 0 && x < 5) {
 				$(".play").append('<img src = "ILeft37Pwr.PNG"/>');
 			}
