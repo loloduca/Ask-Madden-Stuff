@@ -26,52 +26,52 @@ $(".ask").click(function() {
 			 $(".question").val().search("attack") || $(".question").val().search("gun") || 
 			 $(".question").val().search("knife") != -1) {
 			if(x >= 0 && x < 10) {
-				$(".play").append('<img src = "ILeft37Pwr.PNG"/>');
+				$(".play").append('<img src = "/Plays/ILeft37Pwr.PNG"/>');
 			}
 			else if(x >= 10 && x < 15) {
-				$(".play").append('<img src = "IRight24FakeGoPass.PNG"/>');
+				$(".play").append('<img src = "/Plays/IRight24FakeGoPass.PNG"/>');
 			}
 			else if(x >= 15 && x < 20) {
-				$(".play").append('<img src = "IRight33Dive.PNG"/>');
+				$(".play").append('<img src = "/Plays/IRight33Dive.PNG"/>');
 			}
 			else if(x >= 20 && x < 25) {
-				$(".play").append('<img src = "IRightSplit31Fake24Cross.PNG"/>');
+				$(".play").append('<img src = "/Plays/IRightSplit31Fake24Cross.PNG"/>');
 			}
 			else if(x >= 25 && x < 30) {
-				$(".play").append('<img src = "Shotgun860_861.PNG"/>');
+				$(".play").append('<img src = "/Plays/Shotgun860_861.PNG"/>');
 			}
 			else if(x >= 30 && x < 35) {
-				$(".play").append('<img src = "ShotgunBlue897GunPass.PNG"/>');
+				$(".play").append('<img src = "/Plays/ShotgunBlue897GunPass.PNG"/>');
 			}
 			else if(x >= 35 && x < 40) {
-				$(".play").append('<img src = "ShotgunRed896Run.PNG"/>');
+				$(".play").append('<img src = "/Plays/ShotgunRed896Run.PNG"/>');
 			}
 			else if(x >= 40 && x < 45) {
-				$(".play").append('<img src = "ShotgunRed898GunPass.PNG"/>');
+				$(".play").append('<img src = "/Plays/ShotgunRed898GunPass.PNG"/>');
 			}
 			else if(x >= 45 && x < 50) {
-				$(".play").append('<img src = "TFormLeftFlankerPass.PNG"/>');
+				$(".play").append('<img src = "/Plays/TFormLeftFlankerPass.PNG"/>');
 			}
 			else if(x >= 50 && x < 55) {
-				$(".play").append('<img src = "TFormLeftPitchTEReverse.PNG"/>');
+				$(".play").append('<img src = "/Plays/TFormLeftPitchTEReverse.PNG"/>');
 			}
 			else if(x >= 55 && x < 60) {
-				$(".play").append('<img src = "TFormRightFakeBootPass.PNG"/>');
+				$(".play").append('<img src = "/Plays/TFormRightFakeBootPass.PNG"/>');
 			}
 			else if(x >= 60 && x < 65) {
-				$(".play").append('<img src = "TFormRightFakePitch.PNG"/>');
+				$(".play").append('<img src = "/Plays/TFormRightFakePitch.PNG"/>');
 			}
 			else if(x >= 65 && x < 70) {
-				$(".play").append('<img src = "Wing121Jet.PNG"/>');
+				$(".play").append('<img src = "/Plays/Wing121Jet.PNG"/>');
 			}
 			else if(x >= 70 && x < 75) {
-				$(".play").append('<img src = "Wing121Toss.PNG"/>');
+				$(".play").append('<img src = "/Plays/Wing121Toss.PNG"/>');
 			}
 			else if(x >= 75 && x < 80) {
-				$(".play").append('<img src = "Wing182Counter.PNG"/>');
+				$(".play").append('<img src = "/Plays/Wing182Counter.PNG"/>');
 			}
 			else if(x >= 80 && x <= 100) {
-				$(".play").append('<img src = "WingWedge144CTXXDive.PNG"/>');
+				$(".play").append('<img src = "/Plays/WingWedge144CTXXDive.PNG"/>');
 			}
 		}
 
@@ -88,18 +88,18 @@ $(".ask").click(function() {
 			$(".question").val().search("fiancee") || $(".question").val().search("car") || 
 			$(".question").val().search("house") != -1) {
 			if(x >= 0 && x < 25) {
-				$(".play").append('<img src = "34OddMarlinExchange.PNG"/>');
+				$(".play").append('<img src = "/Plays/34OddMarlinExchange.PNG"/>');
 			}
 			else if(x >= 25 && x < 50) {
-				$(".play").append('<img src = "34QueensDeep.PNG"/>');
+				$(".play").append('<img src = "Plays/34QueensDeep.PNG"/>');
 			}
 			else if(x >= 50 && x < 75) {
-				$(".play").append('<img src = "34SHT_Pinch.PNG"/>');
+				$(".play").append('<img src = "Plays/34SHT_Pinch.PNG"/>');
 			}
 			else if(x >= 75 && x <= 100) {
-				$(".play").append('<img src = "34UnderPirate.PNG"/>');
+				$(".play").append('<img src = "Plays/34UnderPirate.PNG"/>');
 			}
-		} else $(".play").append('<img src = "HailMary.png"/>');
+		} else $(".play").append('<img src = "Plays/HailMary.png"/>');
 
 		check2 = false;
 		$(".reset").show();
